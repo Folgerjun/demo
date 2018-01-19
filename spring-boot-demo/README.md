@@ -1,7 +1,5 @@
-##这是一个简单的spring-boot Demo
+**这是一个简单的spring-boot Demo**
 
-##其中配置了简单跳转jsp页面
+**其中配置了简单跳转jsp页面**
 
-##用maven打包jar文件，内嵌tomcat，可直接运行
-
-##我以为这是makedown呢
+**用maven打包jar文件，内嵌tomcat，可直接运行**

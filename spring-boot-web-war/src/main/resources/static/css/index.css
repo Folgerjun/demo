@@ -1,0 +1,45 @@
+section{
+    width: 640px;
+    height: 2050px;
+    background:#008ddf url("../img/indexbg.png") no-repeat;
+    position:relative;
+}
+
+.ruleContent{
+    position: absolute;
+    width: 80%;
+    bottom:35px;
+    left:50%;
+    transform: translate(-50%,0);
+}
+
+.title{
+    font-weight: bold;
+    color:#FFF;
+    font-size: 22px;    
+}
+
+.row{
+    overflow: hidden;
+    color:#FFF;
+    font-size: 22px;
+}
+
+.row1{
+    float:left;
+    width: 5%;
+}
+
+.row2{
+    float:left;
+    width: 95%;
+}
+
+.btn-join{
+    width:497px;
+    height:117px;
+    position: absolute;
+    left:50%;
+    top:1510px;
+    transform: translate(-50%,0);
+}

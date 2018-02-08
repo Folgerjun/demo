@@ -1,0 +1,165 @@
+section{
+	width: 640px;
+	height: 1040px;
+	background: #008ddf;
+	position:relative;
+}
+
+.title{
+	position:absolute;
+	left:50%;
+	top:50px;
+	transform: translate(-50%,0);
+}
+
+.rule_popup{
+	width: 614px;
+	height: 346px;
+	background: #6ac6ee;
+	position:absolute;
+	left:50%;
+	top:265px;
+	transform: translate(-50%,0);
+	border-radius: 30px;
+}
+
+.rule_title{
+	font-size: 24px;
+	font-weight: 900;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.rule_content {
+	width: 98%;
+    height: 85%;
+    overflow-y: auto;
+    /* padding: 0px 18px; */
+    line-height: 32px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.row{
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.row1{
+    float:left;
+    width: 5%;
+}
+
+.row2{
+    float:left;
+    width: 95%;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #47AEEA; /*  */
+	border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #028BD9; /*  */
+	border-radius: 20px;
+}
+
+.agree{
+	text-align: center;
+	color: #FFF;
+	font-size: 24px;
+	position: absolute;
+	top:640px;
+	width: 100%;
+}
+
+.userInfo{
+	position:absolute;
+	bottom:10px;
+	left:50%;
+	transform: translate(-50%,0);
+}
+
+.phoneInput,.nameInput{
+	width: 570px;
+	height: 88px;
+	background: #FFF;
+	border:0;
+	outline: none;
+	margin-top: 30px;
+	border-radius: 10px;
+	font-size: 30px;
+	padding-left: 30px;
+}
+
+.btn-submit{
+	text-align: center;
+	margin-top: 12px;
+}
+
+.cb{
+	width: 26px;
+	height: 26px;
+	background: #FFF;
+	float:left;
+	margin-right: 15px;
+}
+
+.mask{
+	position:fixed;
+	background: rgba(0,0,0,0.6);
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index: 3;
+}
+
+.popup{
+    width: 500px;
+    height: 290px;
+    background: #6AC2EB;
+    position: absolute;
+    left: 50%;
+    top: 26%;
+    transform: translate(-50%,0);
+    z-index: 4;
+    border-radius: 15px;
+    text-align: center;
+    color:#064377;
+    font-size: 28px;
+
+}
+
+.btn-confirm{
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    position:absolute;
+    bottom:0;
+    font-size: 30px;
+    background:#ACDAF1;
+    border-radius: 0 0 15px 15px;
+    color:#003473;
+    font-weight: bold;
+}
+
+.popup-success{
+	padding-top:40px;
+}
+
+.popup-fail{
+	line-height: 200px;
+}
+
+/*.popup p{
+    font-size: 33px;
+    margin-top: 91px;
+}
+*/

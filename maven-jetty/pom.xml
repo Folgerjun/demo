@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com</groupId>
+  <artifactId>fufujun.jetty</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>fufujun.jetty Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  
+  <build>
+  <plugins>
+    <plugin>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-maven-plugin</artifactId>
+        <version>9.0.0.v20130308</version>
+        <configuration>
+        <!-- 表示新代码的扫描时间间隔（秒），值 <= 0 表示不扫描 -->
+            <scanIntervalSeconds>5</scanIntervalSeconds>
+            <webApp>
+            <!-- 表示工程的虚拟目录名，如果配置为/，则届时访问路径为hostname:port/ -->
+                     <contextPath>/</contextPath>
+            </webApp>
+            <connectors>
+                <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                <!-- 配置指定启动端口   / maven : mvn -Djetty.port=8082 jetty:run-->
+                    <port>8082</port>
+                </connector>
+            </connectors>
+        </configuration>
+    </plugin>
+</plugins>
+    <finalName>fufujun.jetty</finalName>
+  </build>
+</project>

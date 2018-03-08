@@ -1,7 +1,7 @@
 # Demo
 demo集合，方便使用
 
-### [spring-boot-web 简单Demo 跳转jsp页面](https://github.com/Folgerjun/demo/tree/master/spring-boot-demo)
+### [spring-boot-web 简单Demo 跳转jsp页面 jsp页面引用Vue.js一些基本操作](https://github.com/Folgerjun/demo/tree/master/spring-boot-demo)
 
 ### [vue-demo vue简单Demo 需要自己安装环境和依赖](https://github.com/Folgerjun/demo/tree/master/vue-demo)
 

@@ -1,0 +1,12 @@
+spring:
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+  messages:
+    basename: templates/hello
+    cache-seconds: 3600
+    encoding: UTF-8
+    
+server:
+  port: 8080
+  context-path: /demo

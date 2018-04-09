@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+  <display-name>Archetype Created Web Application</display-name>
+	<welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+	<!-- Spring监听器 -->
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+    
+	<!-- Spring配置文件位置 -->
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:spring.xml</param-value>
+	</context-param>
+	
+	<!-- Struts2的核心过滤器配置 -->
+     <filter>
+          <filter-name>struts2</filter-name>
+          <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+      </filter>
+      <!-- Struts2过滤器拦截所有的.action请求 -->
+     <filter-mapping>
+         <filter-name>struts2</filter-name>
+         <url-pattern>*.action</url-pattern>
+     </filter-mapping>
+    
+</web-app>

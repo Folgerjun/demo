@@ -1,0 +1,1 @@
+## 简单的SSH框架DEMO (Spring + Struts2 + Hibernate)

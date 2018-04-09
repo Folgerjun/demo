@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.tonglei.test.SpringTest" time="0.361" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="F:\Program Files\Java\jdk1.8.0_162\jre\bin"/>
+    <property name="java.vm.version" value="25.162-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\eclipse-oxy64-ee\workspace\ssht"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\eclipse-oxy64-ee\workspace\ssht"/>
+    <property name="java.runtime.version" value="1.8.0_162-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="F:\Program Files\Java\jdk1.8.0_162\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\zjj\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="F:\eclipse-oxy64-ee\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2585789842564275866.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="F:\Program Files\Java\jdk1.8.0_162\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft HPC Pack 2008 R2\Bin\;D:\SIMULIA\Abaqus\Commands;F:\Program Files\TortoiseSVN\bin;F:\Program Files\Java\jdk1.8.0_162\bin;F:\Program Files\Java\jdk1.8.0_162\jre\bin;%MAVEN_HOME%\bin\;F:\tomcat\apache-tomcat-8.0.44\bin;%M2_HOME%\bin;C:\Users\zjj\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\zjj\AppData\Local\Programs\Python\Python36\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\zjj"/>
+    <property name="user.timezone" value="Australia/Perth"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ffj"/>
+    <property name="java.class.path" value="F:\eclipse-oxy64-ee\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="F:\Program Files\Java\jdk1.8.0_162\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s F:\maven\apache-maven-3.3.9\conf\settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_162"/>
+    <property name="java.ext.dirs" value="F:\Program Files\Java\jdk1.8.0_162\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="F:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;F:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;F:\Program Files\Java\jdk1.8.0_162\jre\lib\sunrsasign.jar;F:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;F:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;F:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;F:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;F:\Program Files\Java\jdk1.8.0_162\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\eclipse-oxy64-ee\workspace\ssht\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.tonglei.test.SpringTest" name="test" time="0.361"/>
+</testsuite>

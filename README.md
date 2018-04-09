@@ -10,3 +10,5 @@ demo集合，方便使用
 ### [maven-jetty插件实现jetty中运行](https://github.com/Folgerjun/demo/tree/master/maven-jetty)
 
 ### [springboot-thymeleaf SpringBoot结合Thymeleaf Thymeleaf模板引擎国际化操作](https://github.com/Folgerjun/demo/tree/master/springboot-thymeleaf)
+
+### [Spring + Struts2 + Hibernate  简单SSH Demo](https://github.com/Folgerjun/demo/tree/master/ssht)

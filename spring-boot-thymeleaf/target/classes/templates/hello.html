@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+<meta charset="UTF-8" />
+<title>SpringBoot-Thymeleaf结合</title>
+</head>
+<body>
+hello world!
+
+<p th:text="${User.name}"> User </p>
+<p th:text="${age}"> age </p>
+<p th:text="${#dates.createNow()}" />
+<p th:text="${#strings.length('__${User.sex}__')}" />
+<p th:text="#{test.pro}" />
+
+<p th:text="${dataMap.index}" />
+
+
+</body>
+
+<script th:inline="javascript">
+
+
+</script>
+</html>

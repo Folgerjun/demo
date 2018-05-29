@@ -9,6 +9,8 @@ demo集合，方便使用
 
 -  [spring-boot-shiro](https://github.com/Folgerjun/demo/tree/master/spring-boot-shiro)：springboot结合shiro实现简单登入验证权限操作
 
+-  [spring-boot-file-upload](https://github.com/Folgerjun/demo/tree/master/spring-boot-file-upload)：springboot原生上传文件操作（包含springboot1.5和2.0版本）
+
 -  [vue-demo](https://github.com/Folgerjun/demo/tree/master/vue-demo)：vue-demo vue简单Demo 需要自己安装环境和依赖
 
 -  [maven-jetty](https://github.com/Folgerjun/demo/tree/master/maven-jetty)：maven-jetty插件实现jetty中运行

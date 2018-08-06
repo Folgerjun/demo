@@ -16,3 +16,5 @@
 -  [maven-jetty](https://github.com/Folgerjun/various-simple-examples/tree/master/maven-jetty)：maven-jetty插件实现jetty中运行
 
 -  [spring-struts2-hibernate](https://github.com/Folgerjun/various-simple-examples/tree/master/ssht)：简单SSH Demo
+
+-  [spring-springmvc-mybatis](https://github.com/Folgerjun/various-simple-examples/tree/master/ssm)：简单SSM Demo

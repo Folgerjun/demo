@@ -1,0 +1,76 @@
+			html,body{
+				background: #F2F2F2;
+			}
+
+			table{
+				border-top:1px solid #DDD;
+				border-left:1px solid #DDD;
+				font-size: 22px;
+				width: 700px;
+				margin:0 auto;
+			}
+
+			table tr td:nth-child(1){
+				text-align: center;
+			}
+
+			table thead td{
+				text-align: center;
+			}
+
+			table td{
+				min-height: 45px;
+				border-bottom:1px solid #DDD;
+				border-right: 1px solid #DDD;
+				padding:10px;
+			}
+
+			.searchContent{
+				font-size: 35px;
+				line-height: 84px;
+				width: 515px;
+				margin:20px auto;	
+				position: relative;
+			}
+
+			.areaSelect{
+				width: 340px;
+				height:75px;
+				background: #FFF;
+				text-align: center;
+				line-height: 75px;
+				margin-top: 0;
+				float:left;
+			}
+
+			.areaList{
+			    width: 340px;
+			    height:420px;
+			    background: #FFF;
+			    text-align: center;
+			    float: left;
+			    position: absolute;
+			    top: 75px;
+			    left:175px;
+			    overflow-y: auto;
+			    display: none;
+			}
+
+			.searchContent span{
+				float:left;
+			}
+
+			.searchContent b{
+			    position: absolute;
+			    right: 21px;
+			    top: 32px;
+			}
+
+			.areaSelect select{
+				border:0;
+				outline: none;
+				appearance:none;
+				-moz-appearance:none;
+				-webkit-appearance:none;	
+				text-align:center;			
+			}

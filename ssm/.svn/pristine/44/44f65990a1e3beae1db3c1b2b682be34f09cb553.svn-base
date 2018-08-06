@@ -1,0 +1,121 @@
+package com.springlight.web.action;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.util.StringUtils;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.springlight.data.db.dao.UnitBuildMapper;
+import com.springlight.data.db.model.UnitBuild;
+import com.springlight.data.service.ClickNumService;
+import com.springlight.data.service.ReadNumService;
+
+@Controller
+@RequestMapping("XCYY")
+public class NewSpringWeb {
+
+	private static List<UnitBuild> builds = null;
+
+	@Autowired
+	ReadNumService mReadNumService;
+
+	@Autowired
+	ClickNumService mClickNumService;
+
+	@Autowired
+	UnitBuildMapper mUnitBuildMapper;
+
+	/**
+	 * 进入页面
+	 * 
+	 * @param unitSign
+	 * @param model
+	 * @return
+	 */
+	@RequestMapping(value = "/{unitsign}", produces = "text/html;charset=UTF-8")
+	public String index(@PathVariable("unitsign") String unitSign, Model model) {
+
+		model.addAttribute("unitSign", unitSign);
+
+		// 使浏览量加1
+		mReadNumService.addReadNum(unitSign);
+
+		return "/page";
+	}
+
+	/**
+	 * 点击事件触发
+	 * 
+	 * @param unitsign
+	 * @return
+	 */
+	@RequestMapping(value = "/link")
+	@ResponseBody
+	public String linkUrl(String unitsign) {
+
+		// 使点击量加1
+		String urllink = mClickNumService.addClickNum(unitsign);
+
+		return urllink;
+	}
+
+	/**
+	 * 跳转查询楼宇页面并展示所有楼宇
+	 * 
+	 * @param unitsign
+	 * @param model
+	 * @return
+	 */
+	@RequestMapping(value = "/queryBuild")
+	public String queryBuild(String unitsign, Model model) {
+
+		// 使查询量加1 同时查出所有楼宇信息
+		builds = mClickNumService.addClickBuildNum(unitsign);
+
+		model.addAttribute("builds", builds);
+
+		// 返回查询页面
+		return "/build";
+	}
+
+	/**
+	 * 页面展示所选的区域的楼宇信息
+	 * 
+	 * @param buildarea
+	 * @param model
+	 * @return
+	 */
+	@RequestMapping(value = "/showBuild")
+	public String showBuild(String buildarea, Model model) {
+
+		List<UnitBuild> buildList = new ArrayList<UnitBuild>();
+
+		if (builds == null) {
+			builds = mUnitBuildMapper.selectAllBuild();
+		}
+		for (UnitBuild build : builds) {
+			String buildArea = build.getUnitArea();
+			if (!StringUtils.isEmpty(buildArea)) {
+				if (buildArea.equals(buildarea)) {
+					// 区域为选中区域时塞入值
+					buildList.add(build);
+				}
+			}
+		}
+		model.addAttribute("builds", buildList);
+		model.addAttribute("buildarea", buildarea);
+
+		if ("不限".equals(buildarea)) {
+			model.addAttribute("builds", builds);
+		}
+		// 返回查询页面
+		return "/build";
+	}
+
+}

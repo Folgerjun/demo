@@ -1,0 +1,268 @@
+@charset "utf-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+body,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    color:#1A1A1F;
+}
+// 去除移动端点击出现阴影
+a,img,button,input,textarea,div{
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+}
+html {
+    font-family: 'sans-serif', "Microsoft YaHei", "微软雅黑", "Tahoma", "Helvetica";
+    font-size: 10px;
+
+    background: #fff;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+i,
+em,
+strong,
+th,
+var {
+    font-weight: normal;
+    font-style: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    outline: none;
+}
+
+caption,
+th {
+    text-align: left;
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+q:before,
+q:after {
+    content: ”;
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+:before,
+:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+/* @media screen and (min-width:100px){ iPhone 4,5
+ html{ font-size: 10px;}
+}
+@media screen and (min-width:320px){ iPhone 4,5
+ html{ font-size: 10px;}
+}
+@media screen and (min-width:375px){ iPhone 6
+ html{ font-size: 12px;}
+}
+@media screen and (min-width:414px){  iPhone 6 plus
+ html{ font-size: 12px;}
+}
+@media screen and (min-width:600px){
+    html{ font-size:14px;}
+} */
+
+body,html{
+	background: #F0F0F0;
+}
+
+.left{
+	float:left;	
+}
+
+.right{
+	float:right
+}
+
+.mui-btn .mui-spinner {
+    width: 25px;
+    height: 25px;
+    vertical-align: baseline;
+}
+
+
+ /*.mui-btn-danger{
+	border-radius: 10px;
+	background: #E60012;
+	font-size: 32px;
+	width:93%;
+	height: 91px;
+	position:fixed;
+	left:50%;
+	bottom:30px;
+	transform: translate(-50%,0);
+	color:#FFF;
+
+}
+
+.mui-btn{
+	border-radius: 10px;
+	background: #BBBABA;
+	font-size: 32px;
+	width:93%;
+	height: 91px;
+	position:absolute;
+	left:50%;
+	top:448px;
+	transform: translate(-50%,0);
+	color:#FFF;
+}*/
+
+input::-webkit-input-placeholder { /* WebKit browsers*/ 
+　　color:#999;
+　　}
+input:-moz-placeholder {  /* Mozilla Firefox 4 to 18*/ 
+　　color:#999;
+　　}
+input::-moz-placeholder {  /* Mozilla Firefox 19+*/ 
+　　color:#999;
+　　}
+input:-ms-input-placeholder { /* Internet Explorer 10+*/ 
+　　color:#999;
+}

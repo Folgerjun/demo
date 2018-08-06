@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+	<classPathEntry
+		location="C:\1\mysql-connector-java-5.0.0-beta-bin.jar" />
+	<context id="context1">
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://xxxx.cn:3306/new_spring_web" userId="oragee"
+			password="Oujistore1q2w3e4r" />
+		<javaModelGenerator targetPackage="com.springlight.data.db.model"
+			targetProject="new_spring_web" />
+		<sqlMapGenerator targetPackage="com.springlight.data.db.mapper"
+			targetProject="new_spring_web" />
+		<javaClientGenerator targetPackage="com.springlight.data.db.dao"
+			targetProject="new_spring_web" type="XMLMAPPER" />
+
+		<table schema="new_spring_web" tableName="unit_record" enableCountByExample="false"
+			enableUpdateByExample="false" enableDeleteByExample="false"
+			enableSelectByExample="false" selectByExampleQueryId="false"></table>
+
+
+	</context>
+</generatorConfiguration>

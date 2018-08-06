@@ -1,0 +1,113 @@
+html,body{
+	background: #F2F2F2;
+}
+
+table{
+	border-top:1px solid #DDD;
+	border-left:1px solid #DDD;
+	font-size: 22px;
+	width: 700px;
+	margin:0 auto;
+}
+
+table tr td:nth-child(1){
+	text-align: center;
+}
+
+table thead td{
+	text-align: center;
+}
+
+table td{
+	min-height: 45px;
+	border-bottom:1px solid #DDD;
+	border-right: 1px solid #DDD;
+	padding:10px;
+}
+
+.searchContent {
+    font-size: 30px;
+    margin: 20px auto;
+    /* position: relative; */
+    overflow: hidden;
+    width: 703px;
+}
+
+.areaSelect{
+	width: 210px;
+    height: 75px;
+    background: #FFF;
+    text-align: center;
+    line-height: 75px;
+    margin-top: 0;
+    float: left;
+    position: relative;
+}
+
+.areaList{
+    width: 340px;
+    height:420px;
+    background: #FFF;
+    text-align: center;
+    float: left;
+    position: absolute;
+    top: 75px;
+    left:175px;
+    overflow-y: auto;
+    display: none;
+}
+
+.searchContent span{
+	float:left;
+}
+
+.searchContent i{
+    position: absolute;
+    right: 21px;
+    top: 32px;
+}
+
+.areaSelect select{
+	border: 0;
+    outline: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-align: center;
+    width: 210px;
+    padding-left: 39px;	
+}
+
+.nameInput{
+	float:left;
+	border:0;
+	height:75px;
+	margin-left: 15px;
+	padding-left: 14px;
+	width: 358px;
+	outline: none;
+}
+
+.btn-search {
+    float: left;
+    margin-left: 15px;
+    background: #1B84C5;
+    height: 75px;
+    border-radius: 10px;
+    color: #FFF;
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+}
+
+.noSearch,.noData{
+    text-align: center;
+    padding-top: 233px;
+}
+
+.noSearch p,.noData p{
+	font-size: 28px;
+	color:#C8C8C8;
+	margin-top: 40px;
+}

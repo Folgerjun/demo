@@ -11,6 +11,8 @@
 
 -  [spring-boot-file-upload](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-file-upload)：springboot原生上传文件操作（包含springboot1.5和2.0版本）
 
+- [spring-boot-rabbitmq-elasticsearch](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-rabbitmq-elasticsearch)：springboot整合lombok、elasticsearch、jersey、rabbitmq（整合之前需要安装相应的环境）
+
 -  [vue-demo](https://github.com/Folgerjun/various-simple-examples/tree/master/vue-demo)：vue-demo vue简单Demo 需要自己安装环境和依赖
 
 -  [maven-jetty](https://github.com/Folgerjun/various-simple-examples/tree/master/maven-jetty)：maven-jetty插件实现jetty中运行

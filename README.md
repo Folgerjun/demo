@@ -13,6 +13,8 @@
 
 - [spring-boot-rabbitmq-elasticsearch](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-rabbitmq-elasticsearch)：springboot整合lombok、elasticsearch、jersey、rabbitmq（整合之前需要安装相应的环境）
 
+- [spring-boot-websocket](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-websocket)：springboot整合websocket 可实现聊天室功能
+
 -  [vue-demo](https://github.com/Folgerjun/various-simple-examples/tree/master/vue-demo)：vue-demo vue简单Demo 需要自己安装环境和依赖
 
 -  [maven-jetty](https://github.com/Folgerjun/various-simple-examples/tree/master/maven-jetty)：maven-jetty插件实现jetty中运行

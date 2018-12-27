@@ -5,20 +5,22 @@
 
 -  [spring-boot-web-war](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-web-war)：springboot+jsp+外部tomcat+引用外部jar包 打包成war包
 
--  [spring-boot-thymeleaf](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-thymeleaf)：springboot结合Thymeleaf Thymeleaf模板引擎国际化操作
+-  [spring-boot-thymeleaf](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-thymeleaf)：springboot 结合 Thymeleaf Thymeleaf 模板引擎国际化操作
 
--  [spring-boot-shiro](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-shiro)：springboot结合shiro实现简单登入验证权限操作
+-  [spring-boot-shiro](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-shiro)：springboot 结合 shiro 实现简单登入验证权限操作
 
--  [spring-boot-file-upload](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-file-upload)：springboot原生上传文件操作（包含springboot1.5和2.0版本）
+-  [spring-boot-file-upload](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-file-upload)：springboot 原生上传文件操作（包含 springboot1.5 和 2.0 版本）
 
 - [spring-boot-rabbitmq-elasticsearch](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-rabbitmq-elasticsearch)：springboot整合lombok、elasticsearch、jersey、rabbitmq（整合之前需要安装相应的环境）
 
-- [spring-boot-websocket](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-websocket)：springboot整合websocket 可实现聊天室功能
+- [spring-boot-websocket](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-websocket)：springboot 整合 websocket 可实现聊天室功能
 
--  [vue-demo](https://github.com/Folgerjun/various-simple-examples/tree/master/vue-demo)：vue-demo vue简单Demo 需要自己安装环境和依赖
+- [spring-boot-sharding-jdbc](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-sharding-jdbc)：springboot2.0 整合 Sharding JDBC 实现 Mysql 读写分离
 
--  [maven-jetty](https://github.com/Folgerjun/various-simple-examples/tree/master/maven-jetty)：maven-jetty插件实现jetty中运行
+-  [vue-demo](https://github.com/Folgerjun/various-simple-examples/tree/master/vue-demo)：vue-demo vue 简单Demo 需要自己安装环境和依赖
 
--  [spring-struts2-hibernate](https://github.com/Folgerjun/various-simple-examples/tree/master/ssht)：简单SSH Demo
+-  [maven-jetty](https://github.com/Folgerjun/various-simple-examples/tree/master/maven-jetty)：maven-jetty 插件实现jetty中运行
 
--  [spring-springmvc-mybatis](https://github.com/Folgerjun/various-simple-examples/tree/master/ssm)：简单SSM Demo
+-  [spring-struts2-hibernate](https://github.com/Folgerjun/various-simple-examples/tree/master/ssht)：简单 SSH Demo
+
+-  [spring-springmvc-mybatis](https://github.com/Folgerjun/various-simple-examples/tree/master/ssm)：简单 SSM Demo

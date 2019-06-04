@@ -1,0 +1,18 @@
+server:
+  port: 8887
+
+spring:
+  mail:
+    host: smtp.163.com
+    username: ffj0721@163.com
+    password: xxxx # 授权码
+    protocol: smtp
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.port: 994
+    properties.mail.display.sendmail: DoubleFJ
+    properties.mail.display.sendname: Spring Boot Email
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
+    default-encoding: utf-8
+    from: ffj0721@163.com

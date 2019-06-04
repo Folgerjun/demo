@@ -17,6 +17,8 @@
 
 - [spring-boot-sharding-jdbc](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-sharding-jdbc)：springboot2.0 整合 Sharding JDBC 实现 Mysql 读写分离
 
+- [spring-boot-mail](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-mail)：springboot2.1 实现邮件发送功能（简单邮件/附件邮件/图片邮件/模板邮件）
+
 -  [vue-demo](https://github.com/Folgerjun/various-simple-examples/tree/master/vue-demo)：vue-demo vue 简单Demo 需要自己安装环境和依赖
 
 -  [maven-jetty](https://github.com/Folgerjun/various-simple-examples/tree/master/maven-jetty)：maven-jetty 插件实现jetty中运行

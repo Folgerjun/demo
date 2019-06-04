@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>spring-boot-mail test</title>
+    <style>
+        body {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #welcome {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="welcome">
+    <h3>Welcome To My Friend!</h3>
+
+    GitHub：
+        <a href="#" th:href="@{${github_url}}" target="_bank">
+            <strong>GitHub</strong>
+        </a>
+    <br />
+    <br />
+    个人博客：
+        <a href="#" th:href="@{${blog_url}}" target="_bank">
+            <strong>DoubleFJ の Blog</strong>
+        </a>
+    <br />
+    <br />
+    <img width="258px" height="258px"
+         src="https://raw.githubusercontent.com/Folgerjun/materials/master/blog/img/WC-GZH.jpg">
+    <br />微信公众号（诗词鉴赏）
+</div>
+</body>
+</html>

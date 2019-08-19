@@ -19,6 +19,8 @@
 
 - [spring-boot-mail](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-mail)：springboot2.1 实现邮件发送功能（简单邮件/附件邮件/图片邮件/模板邮件）
 
+- [spring-boot-jpadata-rest](https://github.com/Folgerjun/various-simple-examples/tree/master/spring-boot-jpadata-rest)：spring data jpa 实现 restful 风格，简单整合实现分页功能
+
 -  [vue-demo](https://github.com/Folgerjun/various-simple-examples/tree/master/vue-demo)：vue-demo vue 简单Demo 需要自己安装环境和依赖
 
 -  [maven-jetty](https://github.com/Folgerjun/various-simple-examples/tree/master/maven-jetty)：maven-jetty 插件实现jetty中运行
